@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorWrong</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/GlobalTextStyle</item>
+    </style>
+
+    <style name="GlobalTextStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CurrentLessonPointer" parent="GlobalTextStyle">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+
+    <style name="OtherLessonPointer" parent="GlobalTextStyle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MainMenuBtnStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:width">240dp</item>
+    </style>
+
+    <style name="MainTitle" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">72sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+
+    <style name="Subtitle" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+
+    <style name="Title" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDark</item>
+    </style>
+
+
+</resources>

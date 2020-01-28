@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TCS Quiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_menu_header">QUIZ</string>
+    <string name="lessons">Lekcje</string>
+    <string name="start_quiz">Rozpocznij Quiz</string>
+    <string name="lesson_one">Lekcja 1</string>
+    <string name="lesson_two">Lekcja 2</string>
+    <string name="lesson_three">Lekcja 3</string>
+
+    <string name="lesson_one_text_one"><b>Turniej Czterech Skoczni (niem. Vierschanzentournee)</b> – jeden z najbardziej prestiżowych turniejów w skokach narciarskich. Zawody rozgrywane na przełomie grudnia i stycznia, każdego roku, na czterech skoczniach. Dwóch w Niemczech (Oberstdorf, Garmisch-Partenkirchen) i dwóch w Austrii (Innsbruck, Bischofshofen). </string>
+    <string name="lesson_one_text_two"><b>Historia Turnieju Czterech Skoczni</b>\n\nPierwsza edycja turnieju odbywała się od 1 stycznia 1953 do 11 stycznia 1953 roku. Zwycięzcą zawodów został słynny austriacki skoczek Josef Bradl – mistrz świata oraz pierwszy zawodnik, który przekroczył granicę 100 metrów. Turniej bywa określany mianem narciarskiego Wielkiego Szlema. Prestiż tych zawodów, jest dla wielu skoczków porównywalny z mistrzostwami świata, a nawet Igrzyskami Olimpijskimi.</string>
+    <string name="lesson_one_text_three"><b>Zasady Turnieju Czterech Skoczni</b>\n\nZwycięzcą Turnieju Czterech Skoczni zostaje zawodnik, który w czasie czterech konkursów zgromadzi na swoim koncie największa liczbę punktów. Pod uwagę brana jest nota łączna za wszystkie oddane skoki podczas zmagań w Oberstdorfie, Garmisch-Partenkirchen, Innsbrucku oraz Bischofshofen.</string>
+
+    <string name="lesson_two_text_one"><b>Felieton radiowy nt. Turnieju Czterech Skoczni</b>\n\nPoniżej mozna posłuchać felietonu Janusz Rodziewicza, w którym opowiada o ciekawostkach Turnieju Czterech Skoczni - nowinki techniczne, system KO, nagrody, zwycięzcy.</string>
+
+    <string name="lesson_three_text_one"><b>Zwycięzcy Turnieju Czterech Skoczni</b>\n\nNajbardziej utytułowanym zawodnikiem w historii Turnieju Czterech Skoczni jest Fin Janne Ahonen, który zwyciężył pięć razy (1999, 2003, 2005, 2006 i 2008). Pierwszym skoczkiem, który czterokrotnie zwyciężał w tych prestiżowych zawodach był Niemiec, Jens Weißflog (1984, 1985, 1991 i 1996). Najwięcej indywidualnych zwycięstw w poszczególnych konkursach zgromadzili Bjørn Wirkola i Jens Weißflog, którzy triumfowali po 10 razy.</string>
+    <string name="lesson_three_text_two">Pierwszym zawodnikiem, któremu udało się wygrać wszystkie cztery konkursy podczas jednego turnieju był Niemiec, Sven Hannawald. Triumfował w jubileuszowym, pięćdziesiątym turnieju w sezonie 2001/2002. 16 lat później jego wyczyn powtórzył Polak – Kamil Stoch, a w następnym roku Japończyk Ryōyū Kobayashi.\nPoniżej filmik ze skokami Svena Hannawalda z konkursu w Bischofshofen w 2001.</string>
+
+    <string name="lesson_three_text_three"><b>Polski turniej</b>\n\nPolscy zawodnicy zwyciężali w Turnieju Czterech Skoczni 3 razy. Pierwszym mistrzem tych zawodów był Adam Małysz, który w sezonie 2000/2001 zadziwił swoją formą sportowy świat i zwyciężył w bezapelacyjny sposób w 49. edycji TCS. Co ciekawe, po dwóch konkursach niemieckich nie prowadził w zawodach. W Innsbrucku i Bischofshofen skakał jednak fenomenalnie i ostatecznie zwyciężył z ponad 100-punktową przewagą nad drugim wówczas Janne Ahonenem. Nikomu, jak dotąd, nie udało się poprawić tego osiągnięcia „Orła z Wisły”.</string>
+    <string name="lesson_three_text_four">Kolejnym skoczkiem, który triumfował w klasyfikacji generalnej niemiecko-austriackiego turnieju jest Kamil Stoch. Mistrz olimpijski z Soczi oraz Pjongczangu wygrał dwa razy z rzędu. Zwyciężył w sezonie 2016/2017 oraz 2017/2018.</string>
+
+    <string name="button_to_start_quiz">Button to start quiz</string>
+    <string name="next_lesson_button">Next lesson Button</string>
+    <string name="home_button">Home button</string>
+
+
+    <string name="next_question_button">Next Question Button</string>
+
+    <string name="question_one_title">Pytanie 1</string>
+    <string name="question_one_text">W jakim mieście odbywa się drugi konkurs w ramach Turnieju Czterech Skoczni?</string>
+    <string name="Question_one_answer_one">Innsbruck</string>
+    <string name="Question_one_answer_two">Oberstdorf</string>
+    <string name="Question_one_answer_three">Bischofshofen</string>
+    <string name="Question_one_answer_four">Garmisch-Partenkirchen</string>
+
+    <string name="question_two_title">Pytanie 2</string>
+    <string name="question_two_text">Co jest główną nagrodą w Turnieju Czterech Skoczni?</string>
+    <string name="Question_two_answer_one">Złota Narta</string>
+    <string name="Question_two_answer_two">Złoty Orzeł</string>
+    <string name="Question_two_answer_three">Złoty Jastrząb</string>
+    <string name="Question_two_answer_four">Złoty Kufel</string>
+
+    <string name="question_three_title">Pytanie 3</string>
+    <string name="question_three_text">Który skoczek najwięcej razy wygrał Turniej Czterech Skoczni?</string>
+    <string name="Question_three_answer_one">Janne Ahonen</string>
+    <string name="Question_three_answer_two">Jens Weißflog</string>
+    <string name="Question_three_answer_three">Adam Małysz</string>
+    <string name="Question_three_answer_four">Sven Hannawald</string>
+
+    <string name="result_one_title">Odpowiedź 1</string>
+    <string name="result_two_title">Odpowiedź 2</string>
+    <string name="result_three_title">Odpowiedź 3</string>
+
+    <string name="button_to_return_to_lesson">Button to return to lessons</string>
+    <string name="four_hill_tournament">Turniej Czterech Skoczni</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+</resources>

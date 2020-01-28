@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/backgroundColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".QuizTwoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/ic_home_black_48dp"
+            android:background="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/home_button" />
+
+        <TextView
+            android:id="@+id/quizTitleTextView"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_two_title"
+            app:layout_constraintBottom_toBottomOf="@+id/homeButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/question_two_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quizTitleTextView" />
+
+        <RadioGroup
+            android:id="@+id/answersRadioGroup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/nextQuestionButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/questionTextView">
+
+            <RadioButton
+                android:id="@+id/radioAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/quiz_radio_btn_state"
+                android:buttonTint="@color/colorAccent"
+                android:text="@string/Question_two_answer_one"
+                style="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radioAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/quiz_radio_btn_state"
+                android:buttonTint="@color/colorAccent"
+                android:text="@string/Question_two_answer_two"
+                style="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radioAnswer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/quiz_radio_btn_state"
+                android:buttonTint="@color/colorAccent"
+                android:text="@string/Question_two_answer_three"
+                style="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radioAnswer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/quiz_radio_btn_state"
+                android:buttonTint="@color/colorAccent"
+                android:text="@string/Question_two_answer_four"
+                style="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+
+
+        <ImageButton
+            android:id="@+id/nextQuestionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@null"
+            android:contentDescription="@string/next_question_button"
+            android:src="@drawable/next_question_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

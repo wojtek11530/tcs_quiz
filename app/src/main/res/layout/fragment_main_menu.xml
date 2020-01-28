@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".MainMenuFragment">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        style="@style/MainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/main_menu_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        style="@style/Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:fontFamily="sans-serif"
+        android:text="@string/four_hill_tournament"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTitle" />
+
+    <Button
+        android:id="@+id/start_quiz_button"
+        style="@style/MainMenuBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/menu_btn"
+        android:drawableLeft="@drawable/ic_test_quiz"
+        android:text="@string/start_quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+    <Button
+        android:id="@+id/lessons_button"
+        style="@style/MainMenuBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu_btn"
+        android:drawableLeft="@drawable/ic_reading"
+        android:text="@string/lessons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_quiz_button" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="152dp"
+        android:src="@drawable/ic_jumping_ski"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lessons_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
